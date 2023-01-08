@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to right, #ff5722, #ff9800);
-    margin-top: 150px !important;
+    margin-top: 150px ;
 }
 
 .register-left {
@@ -73,4 +73,41 @@ body {
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
+}
+
+@media (max-width: 576px) {
+   .register-right {
+
+      width: 80%;
+      margin: auto;
+      
+   }
+
+   .register-left {
+      padding-top: 0;
+   }
+
+   .register-form {
+      padding: 20px;
+   }
+
+   .register-right .btn-primary {
+      padding-top: 5px;
+   }
+
+   .register-left svg {
+      margin: 20px 0 0;
+      width: 50px;
+   }
+
+   .register-left .btn-primary {
+      margin-top: 10px;
+      padding: 5px;
+   }
+
+ 
+   body {
+      margin-top: 0;
+      margin-bottom: 32px;
+   }
 }
